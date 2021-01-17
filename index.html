@@ -5,34 +5,39 @@
         <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
     </head>
 
-    <body> 
+    <body class="bg-gray-200"> 
         <!-- HEADER -->
-        <div class="flex bg-gray-500">
-            <h1 class="pt-4 pl-4"> 
-                <span class="text-4xl font-semibold text-gray-50">Welcome to</span>
-                <span class="text-5xl font-bold text-green-500"> DealMe!</span>
-            </h1>
-        </div>
-        <div class="flex bg-gray-500">
-            <h2 class="pl-4 pb-4 text-gray-50"> Your home for going out on a budget in Chicago </h2>
+        <div class="p-2">
+            <div class="flex bg-gray-500 "> 
+                <h1 class="pt-4 pl-4"> 
+                    <span class="text-4xl font-semibold text-gray-50">Welcome to</span>
+                    <span class="text-5xl font-bold text-green-500"> DealMe!</span>
+                </h1>
+            </div>
+            <div class="flex bg-gray-500 "> 
+                <h2 class="pl-4 pb-4 text-gray-50"> Your home for going out on a budget in Chicago </h2>
+            </div>
         </div>
 
-        <div>
-            <p class="pl-4 w-full"><img src="friends.jpg"></p>
-            <h3>What do you want to look for?</h3>
-                <ul>
-                    <li><a href="Drinks.html">Drinks</a></li>
-                    <li><a href="Food.html">Food</a></li>
-                </ul>
-            <p><strong>Neighborhoods serviced:</strong></p>
-                <ul>
-                    <li>Lincoln Park</li>
-                    <li>Lakeview</li>
-                    <li>Old Town</li>
-                    <li>Wrigleyville</li>
-                    <li>River North</li>
-                </ul>
+        <!-- BODY -->
+        <div class="p-2 bg-gray-200 md:flex"> 
+            <div class="md:w-1/2"> 
+                <a href="Drinks.html">Drinks deals!</a>
+            </div>
+            <div class="md:w-1/2">
+                <a href="Food.html">Food deals!</a>
+            </div>
         </div>
+        <div>
+                <p><strong>Neighborhoods serviced:</strong></p>
+                    <ul>
+                        <li>Lincoln Park</li>
+                        <li>Lakeview</li>
+                        <li>Old Town</li>
+                        <li>Wrigleyville</li>
+                        <li>River North</li>
+                    </ul>
+         </div>
     </body>
 
     </html>
