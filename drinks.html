@@ -5,119 +5,133 @@
         <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
     </head>
 
-    <body>
-        <h1>Drink Deals in your area!</h1>
-        <h2>Beer Deals</h2>
-            <p><img src="drinks.jpg"></p>
-            <h4>Friday</h4>
-                <ul>
-                    <li>$3 Coors Light at Professor Block's house </li>
-                    <li>$1 PBR in your basement</li>
-                </ul>   
-            <h4>Saturday</h4> 
-                <ul>
-                    <li>$3 Coors Light at Professor Block's house </li>
-                    <li>$1 PBR in your basement</li>
-                </ul> 
-            <h4>Sunday</h4>
-                <ul>
-                    <li>$3 Coors Light at Professor Block's house </li>
-                    <li>$1 PBR in your basement</li>
-                </ul> 
-            <h4>Monday</h4>
-                <ul>
-                    <li>$3 Coors Light at Professor Block's house </li>
-                    <li>$1 PBR in your basement</li>
-                </ul> 
-            <h4>Tuesday</h4>
-                <ul>
-                    <li>$3 Coors Light at Professor Block's house </li>
-                    <li>$1 PBR in your basement</li>
-                </ul> 
-            <h4>Wednesday</h4>
-                <ul>
-                    <li>$3 Coors Light at Professor Block's house </li>
-                    <li>$1 PBR in your basement</li>
-                </ul> 
-            <h4>Thursday</h4>
-                <ul>
-                    <li>$3 Coors Light at Professor Block's house </li>
-                    <li>$1 PBR in your basement</li>
-                </ul> 
-        <h2>Cocktail Deals</h2>
-            <p><img src="cocktails.jpg"></p>
-            <h4>Friday</h4>
-                <ul>
-                    <li>$5 Manhattan's at Professor Block's house </li>
-                    <li>$3 Moscow Mules at the bad neighborhood bar</li>
-                </ul>   
-            <h4>Saturday</h4> 
-                <ul>
-                    <li>$5 Manhattan's at Professor Block's house </li>
-                    <li>$3 Moscow Mules at the bad neighborhood bar</li>
-                </ul> 
-            <h4>Sunday</h4>
-                <ul>
-                    <li>$5 Manhattan's at Professor Block's house </li>
-                    <li>$3 Moscow Mules at the bad neighborhood bar</li>
-                </ul> 
-            <h4>Monday</h4>
-                <ul>
-                    <li>$5 Manhattan's at Professor Block's house </li>
-                    <li>$3 Moscow Mules at the bad neighborhood bar</li>
-                </ul> 
-            <h4>Tuesday</h4>
-                <ul>
-                    <li>$5 Manhattan's at Professor Block's house </li>
-                    <li>$3 Moscow Mules at the bad neighborhood bar</li>
-                </ul> 
-            <h4>Wednesday</h4>
-                <ul>
-                    <li>$5 Manhattan's at Professor Block's house </li>
-                    <li>$3 Moscow Mules at the bad neighborhood bar</li>
-                </ul> 
-            <h4>Thursday</h4>
-                <ul>
-                    <li>$5 Manhattan's at Professor Block's house </li>
-                    <li>$3 Moscow Mules at the bad neighborhood bar</li>
-                </ul> 
-        <h2>Shot Deals</h2>
-            <p><img src="shots.jpg"></p>
-            <h4>Friday</h4>
-                <ul>
-                    <li>$3 Jello Shots at the frat party you are too old to be at </li>
-                    <li>$2 Tequila Shots at the Late-night neighborhood burrito Restaurant</li>
-                </ul>   
-            <h4>Saturday</h4> 
-                <ul>
-                    <li>$3 Jello Shots at the frat party you are too old to be at </li>
-                    <li>$2 Tequila Shots at the Late-night neighborhood burrito Restaurant</li>
-                </ul> 
-            <h4>Sunday</h4>
-                <ul>
-                    <li>$3 Jello Shots at the frat party you are too old to be at </li>
-                    <li>$2 Tequila Shots at the Late-night neighborhood burrito Restaurant</li>
-                </ul> 
-            <h4>Monday</h4>
-                <ul>
-                    <li>$3 Jello Shots at the frat party you are too old to be at </li>
-                    <li>$2 Tequila Shots at the Late-night neighborhood burrito Restaurant</li>
-                </ul> 
-            <h4>Tuesday</h4>
-                <ul>
-                    <li>$3 Jello Shots at the frat party you are too old to be at </li>
-                    <li>$2 Tequila Shots at the Late-night neighborhood burrito Restaurant</li>
-                </ul> 
-            <h4>Wednesday</h4>
-                <ul>
-                    <li>$3 Jello Shots at the frat party you are too old to be at </li>
-                    <li>$2 Tequila Shots at the Late-night neighborhood burrito Restaurant</li>
-                </ul> 
-            <h4>Thursday</h4>
-                <ul>
-                    <li>$3 Jello Shots at the frat party you are too old to be at </li>
-                    <li>$2 Tequila Shots at the Late-night neighborhood burrito Restaurant</li>
-                </ul> 
+    <body class="bg-gray-200">
+        <!-- HEADER -->
+        <div class="p-2">
+            <div class="flex bg-gray-500 "> 
+                <h1 class="pt-4 pl-4"> 
+                    <span class="text-4xl font-semibold text-gray-50">Welcome to</span>
+                    <span class="text-5xl font-bold text-green-500"> DealMe!</span>
+                </h1>
+            </div>
+            <div class="flex bg-gray-500 "> 
+                <h2 class="pl-4 pb-4 text-gray-50"> Your home for going out on a budget in Chicago </h2>
+            </div>
+        </div>
+
+        <!-- LIST -->
+        <div class="p-2 md:flex">
+            <div class="m-2">
+                <h2 class="text-xl font-bold text-green-500">Beer Deals</h2>
+                    <h4 class="text-lg font-bold mt-2">Friday</h4>
+                        <ul class="list-disc ml-6">
+                            <li>$3 Coors Light at Professor Block's house </li>
+                            <li>$1 PBR in your basement</li>
+                        </ul>   
+                    <h4 class="text-lg font-bold mt-2">Saturday</h4> 
+                        <ul class="list-disc ml-6">
+                            <li>$3 Coors Light at Professor Block's house </li>
+                            <li>$1 PBR in your basement</li>
+                        </ul> 
+                    <h4 class="text-lg font-bold mt-2">Sunday</h4>
+                        <ul class="list-disc ml-6">
+                            <li>$3 Coors Light at Professor Block's house </li>
+                            <li>$1 PBR in your basement</li>
+                        </ul> 
+                    <h4 class="text-lg font-bold mt-2">Monday</h4>
+                        <ul class="list-disc ml-6">
+                            <li>$3 Coors Light at Professor Block's house </li>
+                            <li>$1 PBR in your basement</li>
+                        </ul> 
+                    <h4 class="text-lg font-bold mt-2">Tuesday</h4>
+                        <ul class="list-disc ml-6">
+                            <li>$3 Coors Light at Professor Block's house </li>
+                            <li>$1 PBR in your basement</li>
+                        </ul> 
+                    <h4 class="text-lg font-bold mt-2">Wednesday</h4>
+                        <ul class="list-disc ml-6">
+                            <li>$3 Coors Light at Professor Block's house </li>
+                            <li>$1 PBR in your basement</li>
+                        </ul> 
+                    <h4 class="text-lg font-bold mt-2">Thursday</h4>
+                        <ul class="list-disc ml-6">
+                            <li>$3 Coors Light at Professor Block's house </li>
+                            <li>$1 PBR in your basement</li>
+                        </ul> 
+                <h2 class="text-xl font-bold text-green-500 mt-6">Cocktail Deals</h2>
+                    <h4 class="text-lg font-bold mt-2">Friday</h4>
+                        <ul class="list-disc ml-6">
+                            <li>$5 Manhattan's at Professor Block's house </li>
+                            <li>$3 Moscow Mules at the bad neighborhood bar</li>
+                        </ul>   
+                    <h4 class="text-lg font-bold mt-2">Saturday</h4> 
+                        <ul class="list-disc ml-6">
+                            <li>$5 Manhattan's at Professor Block's house </li>
+                            <li>$3 Moscow Mules at the bad neighborhood bar</li>
+                        </ul> 
+                    <h4 class="text-lg font-bold mt-2">Sunday</h4>
+                        <ul class="list-disc ml-6">
+                            <li>$5 Manhattan's at Professor Block's house </li>
+                            <li>$3 Moscow Mules at the bad neighborhood bar</li>
+                        </ul> 
+                    <h4 class="text-lg font-bold mt-2">Monday</h4>
+                        <ul class="list-disc ml-6">
+                            <li>$5 Manhattan's at Professor Block's house </li>
+                            <li>$3 Moscow Mules at the bad neighborhood bar</li>
+                        </ul> 
+                    <h4 class="text-lg font-bold mt-2">Tuesday</h4>
+                        <ul class="list-disc ml-6">
+                            <li>$5 Manhattan's at Professor Block's house </li>
+                            <li>$3 Moscow Mules at the bad neighborhood bar</li>
+                        </ul> 
+                    <h4 class="text-lg font-bold mt-2">Wednesday</h4>
+                        <ul class="list-disc ml-6">
+                            <li>$5 Manhattan's at Professor Block's house </li>
+                            <li>$3 Moscow Mules at the bad neighborhood bar</li>
+                        </ul> 
+                    <h4 class="text-lg font-bold mt-2">Thursday</h4>
+                        <ul class="list-disc ml-6">
+                            <li>$5 Manhattan's at Professor Block's house </li>
+                            <li>$3 Moscow Mules at the bad neighborhood bar</li>
+                        </ul> 
+                <h2 class="text-xl font-bold text-green-500 mt-6">Shot Deals</h2>
+                    <h4 class="text-lg font-bold mt-2">Friday</h4>
+                        <ul class="list-disc ml-6">
+                            <li>$3 Jello Shots at the frat party you are too old to be at </li>
+                            <li>$2 Tequila Shots at the Late-night neighborhood burrito Restaurant</li>
+                        </ul>   
+                    <h4 class="text-lg font-bold mt-2">Saturday</h4> 
+                        <ul class="list-disc ml-6">
+                            <li>$3 Jello Shots at the frat party you are too old to be at </li>
+                            <li>$2 Tequila Shots at the Late-night neighborhood burrito Restaurant</li>
+                        </ul> 
+                    <h4 class="text-lg font-bold mt-2">Sunday</h4>
+                        <ul class="list-disc ml-6">
+                            <li>$3 Jello Shots at the frat party you are too old to be at </li>
+                            <li>$2 Tequila Shots at the Late-night neighborhood burrito Restaurant</li>
+                        </ul> 
+                    <h4 class="text-lg font-bold mt-2">Monday</h4>
+                        <ul class="list-disc ml-6">
+                            <li>$3 Jello Shots at the frat party you are too old to be at </li>
+                            <li>$2 Tequila Shots at the Late-night neighborhood burrito Restaurant</li>
+                        </ul> 
+                    <h4 class="text-lg font-bold mt-2">Tuesday</h4>
+                        <ul class="list-disc ml-6">
+                            <li>$3 Jello Shots at the frat party you are too old to be at </li>
+                            <li>$2 Tequila Shots at the Late-night neighborhood burrito Restaurant</li>
+                        </ul> 
+                    <h4 class="text-lg font-bold mt-2">Wednesday</h4>
+                        <ul class="list-disc ml-6">
+                            <li>$3 Jello Shots at the frat party you are too old to be at </li>
+                            <li>$2 Tequila Shots at the Late-night neighborhood burrito Restaurant</li>
+                        </ul> 
+                    <h4 class="text-lg font-bold mt-2">Thursday</h4>
+                        <ul class="list-disc ml-6">
+                            <li>$3 Jello Shots at the frat party you are too old to be at </li>
+                            <li>$2 Tequila Shots at the Late-night neighborhood burrito Restaurant</li>
+                        </ul> 
+                </div>
+            </div>
     </body>
 <p>Go<a href="index.html"> home</a></p>
 </html>
